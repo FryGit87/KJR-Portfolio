@@ -1,0 +1,45 @@
+:root {
+  --bg-salm: #ecc9c9c5;
+}
+
+header {
+  display: flex;
+  background-color: var(--bg-salm);
+}
+
+header > nav {
+  display: flex;
+}
+
+body {
+  display: flex;
+  background-color: var(--bg-salm);
+}
+
+footer {
+  display: flex;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: var(--bg-salm);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: var(--bg-salm);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: var(--bg-salm);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: var(--bg-salm);
+  }
+}
