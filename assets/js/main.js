@@ -6,3 +6,10 @@ readMoreBtn.addEventListener('click',(e)=>{
 })
 
 
+document.querySelector('.read-more-btn').addEventListener('click', function() {
+
+  document.querySelector('#more-about').scrollIntoView({
+    behavior: 'smooth'
+  });
+
+});

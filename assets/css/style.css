@@ -91,7 +91,7 @@ nav ul {
 }
 
 .bio {
-  width: 25rem;
+  max-width: 25rem;
   padding: 1rem;
   border-radius: var(--brd-rad);
   text-align: justify;
@@ -116,12 +116,27 @@ nav ul {
 .text.show-more .moreText {
   display: flex;
   justify-content: center;
-  width: 70rem;
+  max-width: 60rem;
   padding: 1rem;
   border-radius: var(--brd-rad);
   text-align: justify;
   box-shadow: 1px 4px 10px 0px var(--prim-font);
   line-height: 1.6rem;
+}
+
+#skills {
+  padding: 3rem;
+}
+.skills-container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  max-width: 60rem;
+  padding: 1rem;
+  margin-left: 3rem;
+  border-radius: var(--brd-rad);
+  text-align: justify;
+  box-shadow: 1px 4px 10px 0px var(--prim-font);
 }
 
 /* BELOW HERE */

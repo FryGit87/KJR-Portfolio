@@ -54,18 +54,21 @@
         <div class="bio">
             <h2 class="bio-title">About Me</h2>
             <p class="bio-text">
-               Best described as "Busy is best". Always looking for ways to improve and make productive use of time. There is always something that needs doing, altering, fixing or improving. <button class="read-more-btn">...</button>
+               Best described as "Busy is best". Always looking for ways to improve and make productive use of time. There is always something that needs doing, altering, fixing or improving. 
+               <button class="read-more-btn">TLDR</button>
+               <!-- Wanted a scroll button, solved with JS though -->
+            <!-- <input type="button" class="read-more-btn" onClick="document.getElementById('more-about').scrollIntoView();" /> -->
             </p>
         </div>
         <!-- </div> -->
 </section>
 
     <section class="show-more">
-    <h2 class="hidden-title">More About Kym </h2>
+    <h2 class="hidden-title" id="more-about">More About Kym </h2>
             <p class="text">
              <span class="moreText"> 
                 Starting a working career very young, ever serching for ways to keep busy and innovate. My professional career has lead
-            from School into the Automotive Industry, becmoing a qualified technician. A job that requires a high standad of
+            from School into the Automotive Industry, becoming a qualified technician. A job that requires a high standad of
             investigation and superior problem solving skills. After eventually finding this industry quite limiting, it was time to move on.
        
             Then began, travel and exploration. A brief, yet extensive trip across, United States, UK, Europe and Asia, generated an interest in hospitality. Following this interest once returning to Australia helped to hone skills that are crucial for any work environment. High stress environments, results-driven, working in a team, leadership opportunities and most importantly problem solving. 
@@ -73,6 +76,19 @@
           Fast forwarding 10 years, after building one restaurant, one cafe and a production canteen from the ground up, it is time to move on to set the sites higher, test the abilities, chase new goals and achieve new milestones. 
           Now begins Tech era.</span>
         </p>
+    </section>
+
+
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+        <div class="skills-container">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="./assets/icons/i1-html.svg" alt="" loading="lazy" class="tech-logo" />
+                <img src="./assets/icons/i1-css3.svg" alt="" loading="lazy" class="tech-logo" />
+                <img src="./assets/icons/i1-js.svg" alt="" loading="lazy" class="tech-logo" />
+                <img src="./assets/icons/i1-git.svg" alt="" loading="lazy" class="tech-logo" />
+            </div>
+        </div>
     </section>
 
 <!-- 
