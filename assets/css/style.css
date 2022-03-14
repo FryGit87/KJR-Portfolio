@@ -144,6 +144,7 @@ nav ul {
   display: flex;
   justify-content: center;
   align-self: center;
+  flex-wrap: wrap;
   max-width: 90%;
   padding: 1rem;
   margin: 3rem;
@@ -189,14 +190,17 @@ nav ul {
   border-radius: var(--brd-rad);
   padding-bottom: 1rem;
 }
+
 .projects-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   max-width: 90%;
   margin-bottom: 3rem;
   margin-left: 1.5rem;
 }
+
 .hidden-title,
 .skill-header,
 .projects-header,
@@ -206,7 +210,14 @@ nav ul {
   padding-top: 2rem;
 }
 
+/* h3.project-title {
+  display: block;
+  padding-top: 1rem;
+} */
+
 .contact-logo {
+  flex-direction: row;
+  flex-wrap: wrap;
   align-self: center;
   border-radius: var(--brd-rad);
   padding: 2rem;

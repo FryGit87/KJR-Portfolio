@@ -49,22 +49,18 @@
 
 <section class="hero" id="aboutId">
     <img src="assets/images/frydisplay.png" alt="cartoon Kym" loading="lazy" class="hero-img" />
-  <!-- div below is to annimate using the library, review later -->
-    <!-- <div class="bio animate__animated animate__shakeX"> -->
         <div class="bio">
             <h2 class="bio-title">About Me</h2>
             <p class="bio-text">
                Best described as "Busy is best". Always looking for ways to improve and make productive use of time. There is always something that needs doing, altering, fixing or improving. 
                <button class="read-more-btn">TLDR</button>
-               <!-- Wanted a scroll button, solved with JS though -->
-            <!-- <input type="button" class="read-more-btn" onClick="document.getElementById('more-about').scrollIntoView();" /> -->
             </p>
         </div>
-        <!-- </div> -->
+
 </section>
 
     <section class="show-more">
-    <h2 class="hidden-title" id="more-about">More About Kym </h2>
+    <h2 class="hidden-title" id="more-about">More About Kym</h2>
             <p class="text">
              <span class="moreText"> 
                 Starting a working career very young, ever serching for ways to keep busy and innovate. My professional career has lead
@@ -78,29 +74,61 @@
         </p>
     </section>
 
-    <section class="projects" id="projectId">
+<!-- THIS WAS BREAKING MY PROJECT SECTION BECAUSE <A> ELEMENTS ON THE PICTURES -->
+    <!-- <section class="projects" id="projectId">
         <h2 class="projects-header">Past Projects</h2>
         <div class="projects-container">
-            
             <div class="project-container project-card">
-                <img src="./assets/images/chuChu.png" alt="Chu Chu" loading="lazy" class="project-pic" />
+                <a href="https://www.sitlo.com.au/" target= "_blank" title="Sit Lo"><img src="./assets/images/chuChu.png" alt="Chu Chu" loading="lazy" class="project-pic" /></a>
                 <h3 class="project-title">Chu Chu</h3>
                 <p class="project-details">
                     Japanese meets Western cafe with popular offerings from both cuisines. Hot takoyaki on cold days? Sign me up!
                 </p>
             </div>
             <div class="project-container project-card">
-                <img src="./assets/images/sitLo.png" alt="Sit Lo" loading="lazy" class="project-pic" />
+                <a href="https://www.chuchuadl.com.au/" target= "_blank" title="ChuChu ADL"><img src="./assets/images/sitLo.png" alt="Sit Lo" loading="lazy" class="project-pic" /></a>
                 <h3 class="project-title">Sit Lo</h3>
                 <p class="project-details">
                     Modernised Vietnamese eatery for quick turn around for those of us not quick ready to skip lunch. Fresh food, fast service, fantastic value!
                 </p>
             </div>
             <div class="project-container project-card">
+                <a href="https://www.sitlo.com.au/" target="_blank" title="REBRANDED to SITLO"><img src="./assets/images/honkiTonki.png" alt="Honki Tonki Canteen" loading="lazy" class="project-pic" /></a>
+                <h3 class="project-title">Honki Tonki Canteen</h3>
+                <p class="project-details">
+                    Now known as Sit Lo Canteen, Hawker style asain cuisine for students and working professionals missing flavours from home. Delicious delights, just dive in n' dash out. 
+                </p>
+            </div>
+        </div>
+    </section> -->
+
+    
+    <section class="projects" id="projectId">
+        <h2 class="projects-header">Past Projects</h2>
+        <div class="projects-container">
+    
+            <div class="project-container project-card">
+                <img src="./assets/images/chuChu.png" alt="Chu Chu" loading="lazy" class="project-pic" />
+                <h3 class="project-title">Chu Chu</h3>
+                <p class="project-details">
+                    Japanese meets Western cafe with popular offerings from both cuisines. Hot takoyaki on cold days? Sign
+                    me up!
+                </p>
+            </div>
+            <div class="project-container project-card">
+                <img src="./assets/images/sitLo.png" alt="Sit Lo" loading="lazy" class="project-pic" />
+                <h3 class="project-title">Sit Lo</h3>
+                <p class="project-details">
+                    Modernised Vietnamese eatery for quick turn around for those of us not quick ready to skip lunch. Fresh
+                    food, fast service, fantastic value!
+                </p>
+            </div>
+            <div class="project-container project-card">
                 <img src="./assets/images/honkiTonki.png" alt="Honki Tonki Canteen" loading="lazy" class="project-pic" />
                 <h3 class="project-title">Honki Tonki Canteen</h3>
                 <p class="project-details">
-                    Hawker style asain cuisine for students and working professionals missing flavours from home. Delicious delights, just dive in n' dash out. 
+                    Hawker style asain cuisine for students and working professionals missing flavours from home. Delicious
+                    delights, just dive in n' dash out.
                 </p>
             </div>
         </div>
@@ -114,13 +142,11 @@
     <section class="skills" id="skillsId">
         <h2 class="skill-header">My Top Skills</h2>
         <div class="skills-container">
-            <!-- <div class="first-set animate__animated animate__pulse"> -->
                 <img src="./assets/icons/i1-html.svg" alt="html5-logo" loading="lazy" class="tech-logo" />
                 <img src="./assets/icons/i1-css3.svg" alt="css3-logo" loading="lazy" class="tech-logo" />
                 <img src="./assets/icons/i1-js.svg" alt="javascript-logo" loading="lazy" class="tech-logo" />
                 <img src="./assets/icons/i1-git.svg" alt="git-logo" loading="lazy" class="tech-logo" />
             </div>
-        </div>
     </section>
 
 
@@ -128,13 +154,11 @@
     <section class="contact" id="contactId">
         <h2 class="contact-header">Contact</h2>
         <div class="contact-container">
-            <!-- <div class="first-set animate__animated animate__pulse"> -->
                 <a href="https://tinyurl.com/5n6jwvzs" target="_blank" title="LinkedIn"><img src="./assets/images/linkedin-logo.png" alt="linkedIn-logo" loading="lazy" class="contact-logo" /></a>
                 <a href="mailto: kymreilly.87@gmail.com" title="Email Kym"><img src="./assets/images/email-logo.png" alt="email-logo" loading="lazy" class="contact-logo" /></a>
                 <a href="https://github.com/FryGit87" target="_blank" title="GitHub"><img src="./assets/images/github-logo2.png" alt="gitHub-logo" loading="lazy" class="contact-logo" /></a>
-                <a href=""><img src="https://via.placeholder.com/200" alt="resume-doc" loading="lazy" class="contact-logo" /></a>
+                <a href="./assets/images/Resume.pdf" target="_blank"><img src="./assets/images/resume-logo1.png" title="Résumé"alt="resume-doc" loading="lazy" class="contact-logo" /></a>
             </div>
-        </div>
     </section>
 
 
