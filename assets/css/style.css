@@ -138,7 +138,8 @@ nav ul {
   line-height: 1.6rem;
 }
 
-.skills-container {
+.skills-container,
+.contact-container {
   display: flex;
   justify-content: center;
   align-self: center;
@@ -156,7 +157,8 @@ nav ul {
   height: 11.5rem;
 }
 
-.tech-logo:hover {
+.tech-logo:hover,
+.contact-logo:hover {
   transition: var(--transition);
   box-shadow: 1px 4px 10px 0px black;
   border-radius: var(--brd-rad);
@@ -194,7 +196,8 @@ nav ul {
 }
 .hidden-title,
 .skill-header,
-.projects-header {
+.projects-header,
+.contact-header {
   text-align: center;
   margin-bottom: 1rem;
   padding-top: 2rem;
