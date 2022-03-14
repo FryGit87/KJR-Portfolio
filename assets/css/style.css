@@ -152,9 +152,11 @@ nav ul {
   box-shadow: 1px 4px 10px 0px var(--prim-font);
 }
 
-.tech-logo {
+.tech-logo,
+.contact-logo {
   width: 12rem;
   height: 11.5rem;
+  padding-inline: 1rem;
 }
 
 .tech-logo:hover,
@@ -201,6 +203,15 @@ nav ul {
   text-align: center;
   margin-bottom: 1rem;
   padding-top: 2rem;
+}
+
+.contact-logo {
+  align-self: center;
+  max-width: 25%;
+  height: 20%;
+  border-radius: var(--brd-rad);
+  padding-bottom: 1rem;
+  padding-inline: 1rem;
 }
 
 /* REVIEW BELOW HERE */
