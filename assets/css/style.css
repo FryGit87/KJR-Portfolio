@@ -11,6 +11,10 @@
   box-sizing: border-box;
 }
 
+* {
+  background-color: var(--bg-salm);
+}
+
 h2 {
   font-size: 20px;
   color: var(--prim-font);
@@ -109,37 +113,84 @@ nav ul {
 .moreText {
   display: none;
 }
-.show-more {
-  padding-left: 3rem;
-}
 
 .text.show-more .moreText {
   display: flex;
   justify-content: center;
-  max-width: 60rem;
+  align-self: center;
+  max-width: 90%;
   padding: 1rem;
+  margin: 3rem;
+  margin-top: -0.1rem;
   border-radius: var(--brd-rad);
   text-align: justify;
   box-shadow: 1px 4px 10px 0px var(--prim-font);
   line-height: 1.6rem;
 }
 
-#skills {
-  padding: 3rem;
-}
 .skills-container {
   display: flex;
   justify-content: center;
   align-self: center;
-  max-width: 60rem;
+  max-width: 90%;
   padding: 1rem;
-  margin-left: 3rem;
+  margin: 3rem;
+  margin-top: -0.1rem;
   border-radius: var(--brd-rad);
   text-align: justify;
   box-shadow: 1px 4px 10px 0px var(--prim-font);
 }
 
-/* BELOW HERE */
+.tech-logo {
+  width: 12rem;
+  height: 11.5rem;
+}
+
+.tech-logo:hover {
+  transition: var(--transition);
+  box-shadow: 1px 4px 10px 0px black;
+  border-radius: var(--brd-rad);
+}
+
+.project-card {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-self: center;
+  max-width: 30%;
+  padding: 1rem;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+  border-radius: var(--brd-rad);
+  text-align: justify;
+  box-shadow: 1px 4px 10px 0px var(--prim-font);
+  line-height: 1.6rem;
+}
+
+.project-pic {
+  align-self: center;
+  width: 65%;
+  height: 60%;
+  border-radius: var(--brd-rad);
+  padding-bottom: 1rem;
+}
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
+  margin-bottom: 3rem;
+  margin-left: 1.5rem;
+}
+.hidden-title,
+.skill-header,
+.projects-header {
+  text-align: center;
+  margin-bottom: 1rem;
+  padding-top: 2rem;
+}
+
+/* REVIEW BELOW HERE */
 
 .myName {
   display: flex;
