@@ -41,6 +41,7 @@ body {
 }
 
 nav {
+  /* width: auto;    condensed screeen, nav bar width 90% why?????????*/
   position: sticky;
   display: flex;
   top: 0;
@@ -173,7 +174,7 @@ nav ul {
   flex-flow: column wrap;
   justify-content: space-between;
   align-self: center;
-  max-width: 30%;
+  max-width: 25%;
   padding: 1rem;
   margin-left: 3rem;
   margin-bottom: 1rem;
@@ -237,25 +238,19 @@ body {
   background-color: var(--bg-salm);
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 1200px) {
   body {
     background-color: var(--bg-salm);
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 992px) {
   body {
     background-color: var(--bg-salm);
   }
 }
 
-@media only screen and (min-width: 992px) {
-  body {
-    background-color: var(--bg-salm);
-  }
-}
-
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 768px) {
   body {
     background-color: var(--bg-salm);
   }
