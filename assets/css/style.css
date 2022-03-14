@@ -15,6 +15,16 @@
   background-color: var(--bg-salm);
 }
 
+html {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+
+html ::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
 h2 {
   font-size: 20px;
   color: var(--prim-font);
@@ -200,15 +210,6 @@ nav ul {
 
 .headerNav {
   display: flex;
-}
-
-aside {
-  display: flex;
-  flex-wrap: wrap;
-  height: 600px;
-  width: 10%;
-  padding: 10px;
-  margin-left: 15px;
 }
 
 .navSide {
