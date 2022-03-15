@@ -13,5 +13,3 @@ document.querySelector('.read-more-btn').addEventListener('click', function() {
   });
 
 });
-
-
