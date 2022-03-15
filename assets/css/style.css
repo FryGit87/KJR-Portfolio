@@ -170,7 +170,8 @@ nav ul {
   border-radius: var(--brd-rad);
 }
 
-.project-card {
+.project-card,
+.hero-project-container {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
@@ -184,6 +185,44 @@ nav ul {
   text-align: justify;
   box-shadow: 1px 4px 10px 0px var(--prim-font);
   line-height: 1.6rem;
+}
+
+.hero-project-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-self: center;
+  max-width: 25%;
+  min-width: 85%;
+  min-height: 320px;
+  padding: 1rem;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+  border-radius: var(--brd-rad);
+  text-align: justify;
+  box-shadow: 1px 4px 10px 0px var(--prim-font);
+  line-height: 1.6rem;
+}
+
+.fake-google-project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+a > .project-hero-pic {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  align-items: center;
+}
+
+a > .project-hero-pic:hover {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  align-items: center;
 }
 
 .project-pic {
@@ -205,6 +244,11 @@ nav ul {
   margin-left: 1.5rem;
 }
 
+.project-pic:hover {
+  width: 100%;
+  transition: var(--transition);
+}
+
 .hidden-title,
 .skill-header,
 .projects-header,
@@ -213,11 +257,6 @@ nav ul {
   margin-bottom: 1rem;
   padding-top: 2rem;
 }
-
-/* h3.project-title {
-  display: block;
-  padding-top: 1rem;
-} */
 
 .contact-logo {
   flex-direction: row;
