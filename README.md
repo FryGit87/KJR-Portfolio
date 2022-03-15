@@ -22,5 +22,5 @@ Provide a user-friendly synopsis of the out-going, motivated and resourceful ind
 
 ## **Web App**
 
-![Top Half of web app](top half)
-![Bottom half of web app](bottom half)
+![Top Half of web app](./assets/images/top-half-portfolio.png)
+![Bottom half of web app](/assets/images/bottom-half-portfolio.png)
