@@ -160,7 +160,7 @@ nav ul {
 .contact-logo {
   width: 12rem;
   height: 11.5rem;
-  padding-inline: 1rem;
+  /* padding-inline: 1rem; */
 }
 
 .tech-logo:hover,
@@ -189,7 +189,7 @@ nav ul {
 
 .hero-project-container {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-self: center;
   max-width: 25%;
@@ -202,6 +202,8 @@ nav ul {
   text-align: justify;
   box-shadow: 1px 4px 10px 0px var(--prim-font);
   line-height: 1.6rem;
+  background-color: white;
+  align-items: ce;
 }
 
 .fake-google-project {
@@ -267,9 +269,15 @@ a > .project-hero-pic:hover {
   padding-inline: 2rem;
   max-width: 20%;
   height: auto;
+  margin-bottom: 0.5rem;
 }
 
 .contact-container > a {
+  display: flex;
+  justify-content: center;
+}
+
+a {
   display: flex;
   justify-content: center;
 }

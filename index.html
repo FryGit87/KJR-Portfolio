@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -15,7 +14,7 @@
 
 
 
-    <!-- Favicons -->
+<!-- Favicons (little KR logo displayed on the website's tab) -->
 <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16x16.png">
@@ -33,6 +32,7 @@
 
 </head>
 <body>
+<!-- Main page Header and page Nav buttons -->
     <nav>
         <h1>Kym J Reilly</h1>
         <ul class="navigationBar">
@@ -46,7 +46,7 @@
 
     
 
-
+<!-- Hero Image and brief About me section. (contains TLDR button to reveal 'More About Kym') -->
 <section class="hero" id="aboutId">
     <img src="assets/images/frydisplay.png" alt="cartoon Kym" loading="lazy" class="hero-img" />
         <div class="bio">
@@ -59,17 +59,20 @@
 
 </section>
 
+
+<!-- Hidden personal information, displays when 'TLDR' button is clicked -->
     <section class="show-more">
     <h2 class="hidden-title" id="more-about">More About Kym</h2>
             <p class="text">
              <span class="moreText"> 
                 Starting a working career very young, ever serching for ways to keep busy and innovate. My professional career has lead
             from School into the Automotive Industry, becoming a qualified technician. A job that requires a high standad of
-            investigation and superior problem solving skills. After eventually finding this industry quite limiting, it was time to move on.
-       
-            Then began, travel and exploration. A brief, yet extensive trip across, United States, UK, Europe and Asia, generated an interest in hospitality. Following this interest once returning to Australia helped to hone skills that are crucial for any work environment. High stress environments, results-driven, working in a team, leadership opportunities and most importantly problem solving. 
-        
-          Fast forwarding 10 years, after building one restaurant, one cafe and a production canteen from the ground up, it is time to move on to set the sites higher, test the abilities, chase new goals and achieve new milestones. 
+            investigation and superior problem solving skills. After eventually finding this industry quite limiting, it was time to move on. 
+            Then began, travel and exploration. A brief, yet extensive trip across, United States, UK, Europe and Asia, generated an interest 
+            in hospitality. Following this interest once returning to Australia helped to hone skills that are crucial for any work environment. 
+            High stress environments, results-driven, working in a team, leadership opportunities and most importantly problem solving. 
+            Fast forwarding 10 years, after building one restaurant, one cafe and a production canteen from the ground up, it is time to move on
+            to set the sites higher, test the abilities, chase new goals and achieve new milestones. 
           Now begins Tech era.</span>
         </p>
     </section>
@@ -103,17 +106,17 @@
     </section> -->
 
     
+<!-- Personal projects built section, past and current -->
     <section class="projects" id="projectId">
         <h2 class="projects-header">Past Projects</h2>
         <div class="projects-container">
             <div class="hero-project-container">
                 <div class="fake-google-project">
-                    <a href="https://wwww.google.com"><img src="./assets/images/google.png" alt="Google" loading="lazy" class="project-hero-pic" /></a>
+                    <a href="https://www.google.com" target="_blank" title="(not my) FIRST PROJECT!"><img src="./assets/images/google.png" alt="Google" loading="lazy" class="project-hero-pic" /></a>
                 </div>
             </div>
-    
             <div class="project-container project-card">
-                <img src="./assets/images/chuChu.png" alt="Chu Chu" loading="lazy" class="project-pic" />
+                <a href="https://www.chuchuadl.com.au/" target= "_blank" title="ChuChu ADL"><img src="./assets/images/chuChu.png" alt="Chu Chu" loading="lazy" class="project-pic" /></a>
                 <h3 class="project-title">Chu Chu</h3>
                 <p class="project-details">
                     Japanese meets Western cafe with popular offerings from both cuisines. Hot takoyaki on cold days? Sign
@@ -121,14 +124,14 @@
                 </p>
             </div>
             <div class="project-container project-card">
-                <img src="./assets/images/sitLo.png" alt="Sit Lo" loading="lazy" class="project-pic" />
+                <a href="http://www.sitlo.com.au" target="_blank" title="SITLO Bank Street"><img src="./assets/images/sitLo.png" alt="Sit Lo" loading="lazy" class="project-pic" /></a>
                 <h3 class="project-title">Sit Lo</h3>
                 <p class="project-details">
                     Modernised Vietnamese eatery for quick turn around for those of us not quick ready to skip lunch. 
                 </p>
             </div>
             <div class="project-container project-card">
-                <img src="./assets/images/honkiTonki.png" alt="Honki Tonki Canteen" loading="lazy" class="project-pic" />
+                <a href="https://www.sitlo.com.au/" target="_blank" title="REBRANDED to SITLO"><img src="./assets/images/honkiTonki.png" alt="Honki Tonki Canteen" loading="lazy" class="project-pic" /></a>
                 <h3 class="project-title">Honki Tonki Canteen</h3>
                 <p class="project-details">
                     Now Sit Lo, Hawker style asain cuisine for students and working professionals missing flavours from home.
@@ -138,22 +141,19 @@
     </section>
 
 
-
-
-
-
+<!-- Personal skills section -->
     <section class="skills" id="skillsId">
         <h2 class="skill-header">My Top Skills</h2>
         <div class="skills-container">
-                <img src="./assets/icons/i1-html.svg" alt="html5-logo" loading="lazy" class="tech-logo" />
-                <img src="./assets/icons/i1-css3.svg" alt="css3-logo" loading="lazy" class="tech-logo" />
-                <img src="./assets/icons/i1-js.svg" alt="javascript-logo" loading="lazy" class="tech-logo" />
-                <img src="./assets/icons/i1-git.svg" alt="git-logo" loading="lazy" class="tech-logo" />
+                <img src="./assets/icons/i1-html.svg" alt="html5-logo" loading="lazy" class="tech-logo" title="HTML" />
+                <img src="./assets/icons/i1-css3.svg" alt="css3-logo" loading="lazy" class="tech-logo" title="CSS"/>
+                <img src="./assets/icons/i1-js.svg" alt="javascript-logo" loading="lazy" class="tech-logo" title="Javascript" />
+                <img src="./assets/icons/i1-git.svg" alt="git-logo" loading="lazy" class="tech-logo" title="Git" />
             </div>
     </section>
 
 
-
+<!-- Personal media and contact section, images links to corresponding site -->
     <section class="contact" id="contactId">
         <h2 class="contact-header">Contact</h2>
         <div class="contact-container">
@@ -171,12 +171,8 @@
 
 
 
-
+<!-- Link to beginner javascript document, could have done inside the html document but wanted to practice connecting externally -->
  <script src="./assets/js/main.js"></script>
-        <!-- <script src="assets/js/app.js"></script>
-        
-        Ion icons scripts
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> -->
+      
 </body>
 </html>
