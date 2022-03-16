@@ -295,20 +295,137 @@ body {
   background-color: var(--bg-salm);
 }
 
-@media only screen and (max-width: 1200px) {
-  body {
-    background-color: var(--bg-salm);
-  }
-}
-
 @media only screen and (max-width: 992px) {
   body {
     background-color: var(--bg-salm);
   }
+
+  .contact-logo {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+    border-radius: var(--brd-rad);
+    padding: 1rem;
+    padding-inline: 2rem;
+    max-width: 30%;
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 508px) {
   body {
     background-color: var(--bg-salm);
+  }
+
+  .bio {
+    max-width: 25rem;
+    padding: 1rem;
+    border-radius: var(--brd-rad);
+    text-align: justify;
+    box-shadow: 1px 4px 10px 0px var(--prim-font);
+    line-height: 1.6rem;
+    margin-left: 2rem;
+  }
+
+  .project-card,
+  .hero-project-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-self: center;
+    max-width: 85%;
+    /* max-height: 220px; */
+    padding: 1rem;
+    margin-left: 0rem;
+    margin-bottom: 1rem;
+    border-radius: var(--brd-rad);
+    text-align: justify;
+    box-shadow: 1px 4px 10px 0px var(--prim-font);
+    line-height: 1.6rem;
+    flex-flow: row wrap;
+  }
+
+  .skills-container,
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    max-width: 85%;
+    padding: 1rem;
+    margin-top: -0.1rem;
+    border-radius: var(--brd-rad);
+    text-align: justify;
+    box-shadow: 1px 4px 10px 0px var(--prim-font);
+  }
+
+  a > .project-hero-pic {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .project-pic {
+    align-self: center;
+    width: 85%;
+    height: 70%;
+    border-radius: var(--brd-rad);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+  .contact-logo {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+    border-radius: var(--brd-rad);
+    padding: 1rem;
+    padding-inline: 2rem;
+    width: 40%;
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+
+  .tech-logo,
+  .contact-logo {
+    width: 77%;
+    height: 67%;
+    /* padding-inline: 1rem; */
+  }
+
+  a {
+    display: flex;
+    justify-content: center;
+  }
+
+  h3.project-title {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  body {
+    background-color: var(--bg-salm);
+  }
+
+  .project-card,
+  .hero-project-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-self: center;
+    max-width: 85%;
+    /* max-height: 220px; */
+    padding: 1rem;
+    margin-left: 2%;
+    margin-right: 6%;
+    margin-bottom: 1rem;
+    border-radius: var(--brd-rad);
+    text-align: justify;
+    box-shadow: 1px 4px 10px 0px var(--prim-font);
+    line-height: 1.6rem;
+    /* flex-flow: row wrap; */
   }
 }
