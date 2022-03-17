@@ -92,14 +92,13 @@ nav ul {
 }
 
 /* cover this button later */
-/* .moba-nav {
+.moba-nav {
   color: var(--prim-font);
   font-size: 2rem;
-  border: 0;
-  background-color: transparent;
+  border: var(--prim-font);
   cursor: pointer;
   display: none;
-} */
+}
 
 .hero {
   display: flex;
@@ -396,6 +395,39 @@ a {
   h3.project-title {
     text-align: left;
   }
+  /* below here burger bar */
+  nav {
+    padding: 1.5rem 1rem;
+  }
+
+  .moba-nav {
+    display: block;
+  }
+
+  nav ul {
+    position: fixed;
+    background-color: var(--bg-color);
+    flex-direction: column;
+    top: 86px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    transform: translateX(120%);
+    gap: 0rem;
+    /* display: inline; */
+    background-color: var(--bg-salm);
+    border: var(--prim-font) 2px solid;
+  }
+
+  nav ul li {
+    margin: 8px;
+  }
+
+  nav ul.show {
+    transform: translateX(0);
+  }
+
+  /* abover here burger bar  */
 
   .bio {
     max-width: 25rem;

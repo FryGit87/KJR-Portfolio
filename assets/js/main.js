@@ -27,3 +27,25 @@ document.querySelector('.read-more-btn').addEventListener('click', function() {
   });
 
 });
+
+
+// Nav hamburgerburger selections
+
+const mobileNav = document.querySelector("#moba-nav");
+const ul = document.querySelector("nav ul");
+const nav = document.querySelector("nav");
+
+mobileNav.addEventListener("click", () => {
+  ul.classList.toggle("show");
+});
+
+
+// Removes nav links when one is selected
+
+const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach((link) =>
+  link.addEventListener("click", () => {
+    ul.classList.remove("show");
+  })
+);
