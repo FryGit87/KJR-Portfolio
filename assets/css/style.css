@@ -424,6 +424,12 @@ a {
     line-height: 1.6rem;
   }
 
+  .hero-img {
+    max-width: 75%;
+    margin: 1rem;
+    padding: 1rem;
+  }
+
   .hero-project-container {
     flex-flow: row wrap;
   }
@@ -499,5 +505,11 @@ a {
     box-shadow: 1px 4px 10px 0px var(--prim-font);
     line-height: 1.6rem;
     margin: 1rem;
+  }
+
+  .hero-img {
+    max-width: 75%;
+    margin: 1rem;
+    padding: 1rem;
   }
 }
