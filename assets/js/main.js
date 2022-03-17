@@ -1,7 +1,7 @@
 
 // Declare and assign the variables
 const readMoreBtn = document.querySelector('.read-more-btn');
-const text = document.querySelector('.text');
+const text = document.querySelector('.show-more');
 
 
 /* 
@@ -10,7 +10,7 @@ When the specified Button in the web app is clicked, the class selector of 'Text
 between 'text' and 'text show-more'. This enables the previously hidden text to appear.
 */
 readMoreBtn.addEventListener('click',(e)=>{
-    text.classList.toggle('show-more');
+    text.classList.toggle('hidden');
 })
 
 
