@@ -40,7 +40,7 @@ mobileNav.addEventListener("click", () => {
 });
 
 
-// Removes nav links when one is selected
+// Removes nav links menu when one is selected by user
 
 const navLink = document.querySelectorAll(".nav-link");
 
