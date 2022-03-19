@@ -53,6 +53,7 @@ nav {
   padding: 1.5rem 3.5rem;
   background-color: var(--bg-salm);
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1); /* border-bottom: 2px var(--prim-font) solid; */
+  z-index: 1;
 }
 
 .nav-link {
@@ -142,7 +143,6 @@ nav ul {
 .project-card,
 .hero-project-container {
   display: flex;
-  flex-flow: column wrap;
   justify-content: space-between;
   align-self: center;
   max-width: 25%;
@@ -154,6 +154,11 @@ nav ul {
   text-align: justify;
   box-shadow: 1px 4px 10px 0px var(--prim-font);
   line-height: 1.6rem;
+}
+
+.project-card {
+  display: flex;
+  flex-flow: column wrap;
 }
 
 .hero-project-container {
@@ -371,7 +376,6 @@ a {
   .project-card,
   .hero-project-container {
     display: flex;
-    flex-flow: column wrap;
     justify-content: space-between;
     align-self: center;
     max-width: 65%;
@@ -382,6 +386,11 @@ a {
     text-align: justify;
     box-shadow: 1px 4px 10px 0px var(--prim-font);
     line-height: 1.6rem;
+  }
+
+  .project-card {
+    display: flex;
+    flex-flow: column wrap;
   }
 
   .hero-img {
@@ -440,7 +449,6 @@ a {
   .contact-logo {
     width: 77%;
     height: 67%;
-    /* padding-inline: 1rem; */
   }
 
   a {
